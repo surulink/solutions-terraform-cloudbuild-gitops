@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "snappy-airway-329601-tfstate"
     prefix = "env/prod"
   }
 }
